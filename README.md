@@ -20,8 +20,8 @@ Comporte les proba de prédiction du modèle sur chaque tranche des données d'e
 ### history 
 Il s'agit ici de l'évolution de la fonction de perte du modèle ainsi que de sa précision à travers les 10 epochs d'entraînement.
 
-![Image of aciduino on protoboard]()
-![Image of aciduino on protoboard]()
+![Image of aciduino on protoboard](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/acc_train_val.png)
+![Image of aciduino on protoboard](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/loss_train_val.png)
 
 
 
