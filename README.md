@@ -1,28 +1,26 @@
-# binary-classification-_-scores-for-unbalanced-dataset
+# **Binary Classification - Scores for Unbalanced Dataset**  
 
+## **Model Description**  
+This notebook involves a Convolutional Neural Network (CNN) trained on a dataset consisting of two classes:  
+  - **Normal**: Images corresponding to the normal region of a slide.  
+  - **Tumor**: Images corresponding to the tumor region of a slide.  
 
-### Description du modéle
-Il s'agit d'un réseau de neurones de type CNN qui a été entraîné sur une base de données composée de deux classes :
-  - Normal : les images correspondant à la région normale d'une lame
-  - Tumor : les images correspondant à la région normale d'une lame
-  
-l'Objectif était de faire ensuite une annotation avec ce modèle sur la totalité d'une cohorte indépendante, afin d'analysé la survie des patients à l'origine de ces lames.
+The goal was to perform annotation using this model on an independent cohort to analyze the survival of patients from whom these slides originated.
 
- 
- # Cette étape du projet vise seulement à évaluer notre CNN (de type DenseNet) sur ces données ayant été servi à son entraînement.
- 
- 
-### DATA folder
-Comporte les proba de prédiction du modèle sur chaque tranche des données d'entraînement.
+### **Current Stage**  
+This phase of the project focuses on evaluating our CNN (a DenseNet-based model) on the training data used for its training.
 
+## **Data Folder**  
+The **DATA** folder contains the model's prediction probabilities for each slice in the training dataset.
 
+## **History**  
+The following graphs show the model's loss function and accuracy evolution across 10 training epochs:
 
-### History 
-Il s'agit ici de l'évolution de la fonction de perte du modèle ainsi que de sa précision à travers les 10 epochs d'entraînement.
+- **Accuracy Curve** (Training vs Validation):  
+  ![Accuracy Curve](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/acc_train_val.png)
 
-![Image of aciduino on protoboard](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/acc_train_val.png)
-![Image of aciduino on protoboard](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/loss_train_val.png)
+- **Loss Curve** (Training vs Validation):  
+  ![Loss Curve](https://github.com/dinaOuahbi/binary-classification-_-scores-for-unbalanced-dataset/blob/main/loss_train_val.png)
 
-
-
-PS: le script python prend en entrée le chemin vers le DATA
+### **Note**  
+The Python script requires the path to the **DATA** folder as input.
